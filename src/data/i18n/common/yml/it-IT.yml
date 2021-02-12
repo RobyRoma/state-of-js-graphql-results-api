@@ -50,19 +50,25 @@ translations:
     t: Questo sondaggio é ora chiuso.
   - key: general.survey_results
     t: Vedi Risultati Sondaggo »
+  - key: general.surveys_available_languages
+    t: "Sondaggi disponibili in:"
+  - key: general.help_us_translate
+    t: Aiutaci a gradurre i sondaggi »
 
   # footer
   - key: general.privacy_policy
     t: Politica sulla Privacy
   - key: general.leave_issue
     t: Domande? Trovato un bug? <a href="{link}" target="_blank">Apri una issue</a>.
+  - key: general.emoji_icons
+    t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
   # navigation
   - key: general.table_of_contents
     t: Indice
   - key: general.all_questions_optional
     t: >
-      Nota: tutte le domande sono facoltative, raggiungere il 100% del completamento non é obbligatorio.
+      Nota: tutte le domande sono facoltative, dare il 100% delle risposte non é obbligatorio.
   - key: general.data_is_saved
     t: I tuoi dati sono salvati quando navighi nella sezione precedente o successiva.
   
@@ -75,7 +81,8 @@ translations:
       
       I tuoi dati sono stati salvati. Puoi rivederli or modificarli fino alla chiusura del sondaggio.
 
-      Inoltre, puoi aiutarci spargendo la voce e condividendo quest osondaggio. Ogni piccolo aiuto conta e aiuterà i nostri dati ad essere ancora più significativi:
+      Inoltre, puoi aiutarci spargendo la voce e condividendo quest osondaggio. Ogni piccolo aiuto conta e aiuterà 
+      i nostri dati ad essere ancora più significativi:
 
   # share
   - key: general.share_subject
@@ -85,7 +92,8 @@ translations:
     t: >
       Il sondaggio {surveyName} di quest'anno é ora aperto! {link}
 
-  ###########################################################################
+
+###########################################################################
   # Nav
   ###########################################################################
   
@@ -271,7 +279,7 @@ translations:
   - key: options.company_size.range_100_1000
     t: Da 100 a 1000 dipendenti
   - key: options.company_size.range_more_than_1000
-    t: Più 1000 dipendenti
+    t: Più di 1000 dipendenti
 
   # company size (short versions)
   - key: options.company_size.range_1.short
@@ -293,7 +301,7 @@ translations:
 
   # salary
   - key: options.yearly_salary.range_work_for_free
-    t: Lavoro gratis
+    t: Io lavoro gratis
   - key: options.yearly_salary.range_0_10
     t: $0k-$10k
   - key: options.yearly_salary.range_10_30
@@ -324,6 +332,8 @@ translations:
     t: '>$200k'
 
   # job titles
+  - key: options.job_title.cto
+    t: CTO
   - key: options.job_title.front_end_developer
     t: Front End Developer/Engineer
   - key: options.job_title.back_end_developer
@@ -416,6 +426,18 @@ translations:
   - key: options.skin_tone.4
     t: 🧑🏿‍🦲
 
+  # image fallback
+  - key: options.skin_tone.0
+    t: <img src="/emojis/icons8-bald-man-light-skin-tone-100.png" alt="Light skin tone emoji"/>
+  - key: options.skin_tone.1
+    t: <img src="/emojis/icons8-bald-man-medium-light-skin-tone-100.png" alt="Medium-light skin tone emoji"/>
+  - key: options.skin_tone.2
+    t: <img src="/emojis/icons8-bald-man-medium-skin-tone-100.png" alt="Medium skin tone emoji"/>
+  - key: options.skin_tone.3
+    t: <img src="/emojis/icons8-bald-man-medium-dark-skin-tone-100.png" alt="Medium skin tone emoji"/>
+  - key: options.skin_tone.4
+    t: <img src="/emojis/icons8-bald-man-dark-skin-tone-100.png" alt="Dark skin tone emoji"/>
+
   ###########################################################################
   # Tools
   ###########################################################################
@@ -471,18 +493,17 @@ translations:
   - key: user_info.css_proficiency
     t: Competenza in CSS
   - key: user_info.css_proficiency.description
-    t: Quanto competente sei in CSS?
+    t: Quanto sei competente in CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Competenza Back-end
   - key: user_info.backend_proficiency.description
-    t: Quanto competente sei in sviluppo back-end?
+    t: Quanto sei competente nello sviluppo back-end?
 
   # gender
   - key: user_info.gender
     t: Sesso
-
 
   # skin tone/appearance
   - key: user_info.skin_tone
